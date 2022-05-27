@@ -16,10 +16,8 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/sarapv'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/sara-p%C3%A9rez-vieites-732425122/'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Dr. Sara Pérez Vieites', title: 'Postdoctoral Researcher', department: 'Signal Processing and Communications', institution: 'Universidad Carlos III de Madrid', institution_address: 'Av. de la Universidad, 30, 28911, Leganés, Madrid', phone: '(+34) 916246005', email: 'saperezv@pa.uc3m.es', office: '4.3.A03', image: 'assets/img/contact.jpg'}
