@@ -1,15 +1,15 @@
 featured:
-- {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: '/publications/1501.07274.pdf'}
-- {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
+- {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: 'https://www.sciencedirect.com/science/article/pii/S0165168421003327'}
+- {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.063305'}
 
 journal:
-- {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: '/publications/1501.07274.pdf'}
-- {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
+- {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: 'https://www.sciencedirect.com/science/article/pii/S0165168421003327'}
+- {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.063305'}
 
 conference:
-- {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: '/publications/1501.07274.pdf'}
-- {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
+- {name: 'Pérez-Vieites, S., & Míguez, J. (2020). A nested hybrid filter for parameter estimation and state tracking in homogeneous multi-scale models. In 2020 IEEE 23rd International Conference on Information Fusion (FUSION) (pp. 1-8). IEEE.', url: 'https://ieeexplore.ieee.org/abstract/document/9190630'}
+- {name: 'Pérez-Vieites, S., & Míguez, J. (2020). Kalman-based nested hybrid filters for recursive inference in state-space models. In 2020 28th European Signal Processing Conference (EUSIPCO) (pp. 2468-2472). IEEE.', url: 'https://ieeexplore.ieee.org/abstract/document/9287359'}
+- {name: 'Pérez-Vieites, S., Vilà-Vals, J., Bugallo, M. F., Míguez, J., & Closas, P. (2019). Second Order Subspace Statistics for Adaptive State-Space Partitioning in Multiple Particle Filtering. In 2019 IEEE 8th Intenational Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP) (pp. 609-613). IEEE.', url: 'https://ieeexplore.ieee.org/abstract/document/9022449'}
 
 arxiv:
-- {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: '/publications/1501.07274.pdf'}
-- {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
+- {name: 'Pérez-Vieites, S., Molina-Bulla, H., & Míguez, J. (2022). Nested smoothing algorithms for inference and tracking of heterogeneous multi-scale state-space systems. arXiv preprint arXiv:2204.07795.', url:'https://arxiv.org/abs/2204.07795', pdf: '/publications/2204.07795.pdf'}
