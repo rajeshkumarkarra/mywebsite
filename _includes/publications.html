@@ -6,15 +6,17 @@
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
     {% else %}
-    <h4>Journals</h4>
+    <h4>Journals publications</h4>
       {% for item in site.data.publications.journal %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
+    <hr>
     <h4>Conference papers</h4>
       {% for item in site.data.publications.conference %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
-    <h4>Arxiv</h4>
+    <hr>
+    <h4>Manuscripts under preparation</h4>
       {% for item in site.data.publications.arxiv %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
