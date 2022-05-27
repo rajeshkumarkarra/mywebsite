@@ -2,6 +2,14 @@ featured:
 - {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: '/publications/1501.07274.pdf'}
 - {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
 
-index:
+journal:
+- {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: '/publications/1501.07274.pdf'}
+- {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
+
+conference:
+- {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: '/publications/1501.07274.pdf'}
+- {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
+
+arxiv:
 - {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', url: '/publications/1501.07274.pdf'}
 - {name: 'Pérez-Vieites, S., & Mariño, I. P., & Míguez, J. (2018). Probabilistic scheme for joint parameter estimation and state prediction in cojmplex dynamical systems. Physical Review E, 98(6), 063305.', url: 'http://ms.mcmaster.ca/kevla/pdf/articles/PhilTransRSoc_2013.pdf'}
