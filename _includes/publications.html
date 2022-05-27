@@ -18,7 +18,11 @@
     <br>
     <h4>Manuscripts under preparation</h4>
       {% for item in site.data.publications.arxiv %}
-        <p>{{ item.name }} [<a href="{{ item.url }}">url</a>]</p>
+        <p>{{ item.name }} [<a href="{{ item.url }}">url</a>] 
+          {% if  site.data.publications.pdf !== 'undefined' %}
+          [<a href="{{ item.pdf }}">pdf</a>]
+          {% endif %}
+        </p>
       {% endfor %}
     {% endif %}
   </div>
