@@ -6,7 +6,16 @@
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
     {% else %}
-      {% for item in site.data.publications.index %}
+    <h4>Journals</h4>
+      {% for item in site.data.publications.journal %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% endfor %}
+    <h4>Conference papers</h4>
+      {% for item in site.data.publications.conference %}
+        <p><a href="{{ item.url }}">{{ item.name }}</a></p>
+      {% endfor %}
+    <h4>Arxiv</h4>
+      {% for item in site.data.publications.arxiv %}
         <p><a href="{{ item.url }}">{{ item.name }}</a></p>
       {% endfor %}
     {% endif %}
