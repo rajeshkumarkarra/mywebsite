@@ -1,14 +1,14 @@
 menu:
-- {name: 'people', url: '/people'}
+#- {name: 'people', url: '/people'}
 - {name: 'publications', url: '/publications'}
 - {name: 'courses', url: '/courses'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
-people:
-- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
-- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
+#people:
+#- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+#- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
+#- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
@@ -20,4 +20,4 @@ social:
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/sara-p%C3%A9rez-vieites-732425122/'}
 
 contacts:
-- {name: 'Dr. Sara Pérez Vieites', title: 'Postdoctoral Researcher', department: 'Signal Processing and Communications', institution: 'Universidad Carlos III de Madrid', institution_address: 'Av. de la Universidad, 30, 28911, Leganés, Madrid', phone: '(+34) 916246005', email: 'saperezv@pa.uc3m.es', office: '4.3.A03', image: 'assets/img/contact.jpg'}
+- {name: 'Dr. Sara Pérez Vieites', title: 'Postdoctoral Researcher', department: 'Signal Processing and Communications', institution: 'Universidad Carlos III de Madrid', institution_address: 'Av. de la Universidad, 30, 28911, Leganés, Madrid', phone: '(+34) 916246005', email: 'saperezv@pa.uc3m.es', office: '4.3.A03', image: 'assets/img/uc3m.jpg'}
