@@ -23,8 +23,10 @@
       {% endfor %}
     <br>
     <h4>Thesis</h4>
-      <p>{{ site.data.publications.thesis.name }} [<a href="{{ site.data.publications.thesis.url }}">pdf</a>]
-      </p>
+      {% for item in site.data.publications.thesis %}
+        <p>{{ item.name }} [<a href="{{ item.url }}">pdf</a>]
+        </p>
+      {% endfor %}
    {% endif %}
   </div>
 </div>
