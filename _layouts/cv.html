@@ -13,8 +13,12 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.education %}
-        <p><strong>{{ section.title }}</strong> <br> {{ section.place }}</p>
-          <p>{{ section.description }}</p>
+        <p><strong>{{ section.title }}</strong> 
+          <br> 
+          {{ section.place }}
+          <br>
+          <small>{{ section.description }}</small>
+        </p>
         {% endfor %}
       </div>
     </div>
