@@ -18,7 +18,7 @@ courses:
 social:
 - {icon: 'github', link: 'https://github.com/sarapv'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/sara-p%C3%A9rez-vieites-732425122/'}
-- {icon: 'assets/scholaricon.png', link: 'https://scholar.google.es/citations?user=MzPUI0AAAAAJ&hl=es'}
+- {icon: 'google-scholar', icon_pack: 'ai', link: 'https://scholar.google.es/citations?user=MzPUI0AAAAAJ&hl=es'}
 
 contacts:
 - {name: 'Dr. Sara Pérez Vieites', title: 'Postdoctoral Researcher', department: 'Signal Theory and Communications Department', institution: 'Universidad Carlos III de Madrid', institution_address: 'Av. de la Universidad, 30, 28911, Leganés, Madrid', phone: '(+34) 916246005', email: 'saperezv@pa.uc3m.es', office: '4.3.A03', image: 'assets/img/uc3m.jpeg'}
