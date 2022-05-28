@@ -13,3 +13,6 @@ conference:
 
 arxiv:
 - {name: 'Pérez-Vieites, S., Molina-Bulla, H., & Míguez, J. (2022). Nested smoothing algorithms for inference and tracking of heterogeneous multi-scale state-space systems. arXiv preprint arXiv:2204.07795.', web:'https://arxiv.org/abs/2204.07795', url: 'publications/2204.07795.pdf'}
+
+thesis:
+- {name: 'Nested filtering methods for Bayesian inference in state space models', url: 'publications/Thesis_SaraPerezVieites_CC.pdf'}
