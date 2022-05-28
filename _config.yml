@@ -1,4 +1,4 @@
 url: "https://sarapv.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/webpage2" # the subpath of your site, e.g. /blog
+baseurl: "/webpage" # the subpath of your site, e.g. /blog
 title: "Sara Pérez Vieites" # the name of your site, e.g. ACME Corp.
 description: "Postdoctoral Researcher"
