@@ -13,7 +13,7 @@ layout: default
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.education %}
-          <p class="fw-bold">{{ section.title }}</p>
+        <p><strong>{{ section.title }}</strong> <br> {{ section.place }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
       </div>
