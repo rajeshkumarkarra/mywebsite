@@ -2,6 +2,7 @@ $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $linkColor: #212529 !important;
+$linkpapers: #741b47;
 
 body {
   background: $backgroundColor;
@@ -14,6 +15,6 @@ body {
 //}
 body a.other {color: $linkColor; background-color: transparent; text-decoration: underline;}
 
-body a.paper {color: green; background-color: transparent; text-decoration: none;}
+body a.paper {color: $linkpapers; background-color: transparent; text-decoration: none;}
 
 
