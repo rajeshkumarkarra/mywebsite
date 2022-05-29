@@ -12,6 +12,8 @@ body {
 //body a {
 //  color: $linkColor
 //}
-a:link {color: green; background-color: transparent; text-decoration: none;}
-a:visited {color: pink; background-color: transparent; text-decoration: none;}
+a.other:link {color: $linkColor; background-color: transparent; text-decoration: underline;}
+
+a.paper:link {color: green; background-color: transparent; text-decoration: none;}
+a.paper:visited {color: pink; background-color: transparent; text-decoration: none;}
 
