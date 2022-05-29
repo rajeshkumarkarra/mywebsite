@@ -3,7 +3,12 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
-        <p>{{ item.name }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]</p>
+         <p>
+        {% for item_authors in site.data.publications.featured.authors %}
+           <a href="{{ item_authors.url }}">{{ item_authors.name }}</a> 
+        {% endfor %}
+           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]  
+        </p>
       {% endfor %}
     {% else %}
     <h4>Journals publications</h4>
