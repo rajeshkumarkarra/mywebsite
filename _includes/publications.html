@@ -25,18 +25,71 @@
     {% else %}
     <h4>Journals publications</h4>
       {% for item in site.data.publications.journal %}
-        <p>{{ item.name }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]</a></p>
+        <p>
+          {% for item_authors in item.authors %}
+            {% if item_authors.last == "1" %}
+              {% if item_authors.url == null %}
+                & {{ item_authors.name }}.   
+              {% else %}
+                & <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>   
+              {% endif %}
+            {% else %}
+              {% if item_authors.url == null %}
+                {{ item_authors.name }},
+              {% else %}
+                <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>,  
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]  
+        </p>  
+        <!-- <p>{{ item.name }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]</a></p> -->
       {% endfor %}
     <br>
     <h4>Conference papers</h4>
       {% for item in site.data.publications.conference %}
-        <p>{{ item.name }} [<a href="{{ item.web }}">IEEE</a>][<a href="{{ item.url }}">pdf</a>]</p>
+        <p>
+          {% for item_authors in item.authors %}
+            {% if item_authors.last == "1" %}
+              {% if item_authors.url == null %}
+                & {{ item_authors.name }}.   
+              {% else %}
+                & <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>   
+              {% endif %}
+            {% else %}
+              {% if item_authors.url == null %}
+                {{ item_authors.name }},
+              {% else %}
+                <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>,  
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]  
+        </p>
+        <!-- <p>{{ item.name }} [<a href="{{ item.web }}">IEEE</a>][<a href="{{ item.url }}">pdf</a>]</p> -->
       {% endfor %}
     <br>
     <h4>Manuscripts under preparation</h4>
       {% for item in site.data.publications.arxiv %}
-        <p>{{ item.name }} [<a href="{{ item.web }}">arXiv</a>][<a href="{{ item.url }}">pdf</a>]
-        </p>
+        <p>
+          {% for item_authors in item.authors %}
+            {% if item_authors.last == "1" %}
+              {% if item_authors.url == null %}
+                & {{ item_authors.name }}.   
+              {% else %}
+                & <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>   
+              {% endif %}
+            {% else %}
+              {% if item_authors.url == null %}
+                {{ item_authors.name }},
+              {% else %}
+                <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>,  
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]  
+        </p> 
+        <!-- <p>{{ item.name }} [<a href="{{ item.web }}">arXiv</a>][<a href="{{ item.url }}">pdf</a>]</p> -->
       {% endfor %}
     <br>
     <h4>Thesis</h4>
