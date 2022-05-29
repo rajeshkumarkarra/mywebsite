@@ -18,4 +18,4 @@ arxiv:
 - {authors: [{name: 'Pérez-Vieites, S.', last: '0'}, {name: 'Molina-Bulla, H.', url: 'https://www.tsc.uc3m.es/~hmolina/', last: '0'},  {name: 'Míguez, J.', url: 'https://jmiguez.webs.tsc.uc3m.es/', last: '1'}], year: '2022', title: 'Nested smoothing algorithms for inference and tracking of heterogeneous multi-scale state-space systems.', journal: 'arXiv preprint arXiv:2204.07795.', web:'https://arxiv.org/abs/2204.07795', url: 'publications/2204.07795.pdf'}
 
 thesis:
-- {name: 'Nested filtering methods for Bayesian inference in state space models, PhD thesis, Sara Pérez Vieites, January 2022, Universidad Carlos III de Madrid.', url: 'publications/Thesis_SaraPerezVieites_CC.pdf'}
+- {title: 'Nested filtering methods for Bayesian inference in state space models', description: 'PhD thesis, Sara Pérez Vieites, January 2022, Universidad Carlos III de Madrid.', url: 'publications/Thesis_SaraPerezVieites_CC.pdf'}
