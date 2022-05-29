@@ -7,9 +7,17 @@
         <p>
           {% for item_authors in item.authors %}
             {% if item_authors.last == "1" %}
-              & <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>.   
+              {% if item_authors.url == null %}
+                & {{ item_authors.name }}.   
+              {% else %}
+                & <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>.   
+              {% endif %}
             {% else %}
-              <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>, 
+              {% if item_authors.url == null %}
+                {{ item_authors.name }},
+              {% else %}
+                <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>,  
+              {% endif %}
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]  
