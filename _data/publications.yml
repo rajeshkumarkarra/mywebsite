@@ -1,7 +1,7 @@
 featured:
 - {authors: {
     - {name: 'Pérez-Vieites, S.', url: ''}
-    - {name: 'Míguez, J.', url: 'https://jmiguez.webs.tsc.uc3m.es/'} 
+    - {name: 'Míguez, J.', url: 'https://jmiguez.webs.tsc.uc3m.es/', last: '1'} 
     },
    year: '2021', 
    title: 'Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models.', 
