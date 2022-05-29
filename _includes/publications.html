@@ -94,7 +94,7 @@
     <br>
     <h4>Thesis</h4>
       {% for item in site.data.publications.thesis %}
-        <p>{{ item.name }} [<a href="{{ item.url }}">pdf</a>]
+        <p><em>{{ item.title }}</em>, {{ item.description }} [<a href="{{ item.url }}">pdf</a>]
         </p>
       {% endfor %}
    {% endif %}
