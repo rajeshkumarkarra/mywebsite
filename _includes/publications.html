@@ -20,7 +20,7 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]  
+          [<a class="paper" href="{{ item.web }}">journal</a>][<a class="paper" href="{{ item.url }}">pdf</a>]  
         </p>
       {% endfor %}
     {% else %}
