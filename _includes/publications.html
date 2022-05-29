@@ -20,7 +20,7 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          <br><!--[<a class="paper" href="{{ item.web }}">journal/proceedings</a>]-->[<a class="paper" href="{{ item.url }}">pdf</a>]  
+          <br><!--<a class="paper" href="{{ item.web }}">[journal/proceedings]</a>--><a class="paper" href="{{ item.url }}">[pdf]</a>  
         </p>
       {% endfor %}
     {% else %}
@@ -44,9 +44,9 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          <br><!--[<a class="paper" href="{{ item.web }}">journal</a>]-->[<a class="paper" href="{{ item.url }}">pdf</a>]  
+          <br><!--<a class="paper" href="{{ item.web }}">[journal]</a>--><a class="paper" href="{{ item.url }}">[pdf]</a>  
         </p>  
-        <!-- <p>{{ item.name }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]</a></p> -->
+        <!-- <p>{{ item.name }} <a href="{{ item.web }}">[journal]</a><a href="{{ item.url }}">[pdf]</a></a></p> -->
       {% endfor %}
     <br>
     <h4>Conference papers</h4>
@@ -68,9 +68,9 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          <br><!--[<a class="paper" href="{{ item.web }}">journal</a>]-->[<a class="paper" href="{{ item.url }}">pdf</a>]  
+          <br><!--<a class="paper" href="{{ item.web }}">[journal]</a>--><a class="paper" href="{{ item.url }}">[pdf]</a>  
         </p>
-        <!-- <p>{{ item.name }} [<a href="{{ item.web }}">IEEE</a>][<a href="{{ item.url }}">pdf</a>]</p> -->
+        <!-- <p>{{ item.name }} <a href="{{ item.web }}">[IEEE]</a><a href="{{ item.url }}">[pdf]</a></p> -->
       {% endfor %}
     <br>
     <h4>Manuscripts under preparation</h4>
@@ -92,15 +92,15 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          <br>[<a class="paper" href="{{ item.web }}">arXiv</a>][<a class="paper" href="{{ item.url }}">pdf</a>]  
+          <br><a class="paper" href="{{ item.web }}">[arXiv]</a><a class="paper" href="{{ item.url }}">[pdf]</a>  
         </p> 
-        <!-- <p>{{ item.name }} [<a href="{{ item.web }}">arXiv</a>][<a href="{{ item.url }}">pdf</a>]</p> -->
+        <!-- <p>{{ item.name }} <a href="{{ item.web }}">[arXiv]</a><a href="{{ item.url }}">[pdf]</a></p> -->
       {% endfor %}
     <br>
     <h4>Ph.D. Thesis</h4>
       {% for item in site.data.publications.thesis %}
         <p><em>{{ item.title }}</em>, {{ item.description }} 
-          <br>[<a class="paper" href="{{ item.url }}">pdf</a>]
+          <br><a class="paper" href="{{ item.url }}">[pdf]</a>
         </p>
       {% endfor %}
    {% endif %}
