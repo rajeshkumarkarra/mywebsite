@@ -5,7 +5,11 @@
       {% for item in site.data.publications.featured %}
          <p>
         {% for item_authors in site.data.publications.featured.authors %}
-           <a href="{{ item_authors.url }}">{{ item_authors.name }}</a> 
+           {% if {{ item_authors.last }} == 1 %}
+            & <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>.
+           {% else %}
+            <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>,  
+           {% endif %}
         {% endfor %}
            ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]  
         </p>
