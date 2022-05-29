@@ -11,9 +11,9 @@ body {
   font-family: $bodyFont;
 }
 
-body a {
-  color: $linkColor
-}
+//body a {
+//  color: $linkColor
+//}
 body a.other {color: $linkColor; background-color: transparent; text-decoration: underline;}
 
 body a.paper {color: $linkazul; background-color: transparent; text-decoration: none;}
