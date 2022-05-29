@@ -5,7 +5,7 @@
     <p> prueba 4 </p>
       {% for item in site.data.publications.featured %}
         <p>
-          {% for item_authors in item %}
+          {% for item_authors in item.authors %}
             {% if item_authors.last == "1" %}
               & <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>.   
             {% else %}
