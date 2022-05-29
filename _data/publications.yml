@@ -1,13 +1,13 @@
 featured:
-- {authors: {
-    - {name: 'Pérez-Vieites, S.', url: ''}
-    - {name: 'Míguez, J.', url: 'https://jmiguez.webs.tsc.uc3m.es/', last: '1'} 
-    },
-   year: '2021', 
-   title: 'Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models.', 
-   journal: 'Signal Processing, 189, 108295.', 
-   web: 'https://www.sciencedirect.com/science/article/pii/S0165168421003327', 
-   url: 'publications/PerezVieites_SignalProcessing21.pdf'}
+- paper1:
+    authors: 
+        - {name: 'Pérez-Vieites, S.', url: ''}
+        - {name: 'Míguez, J.', url: 'https://jmiguez.webs.tsc.uc3m.es/', last: '1'} 
+    year: '2021'
+    title: 'Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models.'
+    journal: 'Signal Processing, 189, 108295.'
+    web: 'https://www.sciencedirect.com/science/article/pii/S0165168421003327'
+    url: 'publications/PerezVieites_SignalProcessing21.pdf'
 
 journal:
 - {name: 'Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.', web: 'https://www.sciencedirect.com/science/article/pii/S0165168421003327', url: 'publications/PerezVieites_SignalProcessing21.pdf'}
