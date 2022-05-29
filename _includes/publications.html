@@ -3,15 +3,15 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
-         <p>
+        <p>
         {% for item_authors in site.data.publications.featured.authors %}
-           {% if {{ item_authors.last }} == 1 %}
+          {% if {{ item_authors.last }} == 1 %}
             & <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>.
-           {% else %}
+          {% else %}
             <a href="{{ item_authors.url }}">{{ item_authors.name }}</a>,  
-           {% endif %}
+          {% endif %}
         {% endfor %}
-           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]  
+        ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} [<a href="{{ item.web }}">journal</a>][<a href="{{ item.url }}">pdf</a>]  
         </p>
       {% endfor %}
     {% else %}
