@@ -25,6 +25,9 @@
           {% if item.poster != null %}
             <a class="paper" href="{{ item.poster }}">[poster]</a>        
           {% endif %}
+          {% if item.slides != null %}
+          <a class="paper" href="{{ item.slides }}">[slides]</a>        
+          {% endif %}
         </p>
       {% endfor %}
     {% else %}
@@ -51,6 +54,9 @@
           <br><!--<a class="paper" href="{{ item.web }}">[journal]</a>--><a class="paper" href="{{ item.paper }}">[pdf]</a>  
           {% if item.poster != null %}
             <a class="paper" href="{{ item.poster }}">[poster]</a>        
+          {% endif %}
+          {% if item.slides != null %}
+          <a class="paper" href="{{ item.slides }}">[slides]</a>        
           {% endif %}
         </p>  
         <!-- <p>{{ item.name }} <a href="{{ item.web }}">[journal]</a><a href="{{ item.url }}">[pdf]</a></a></p> -->
@@ -79,6 +85,9 @@
           {% if item.poster != null %}
             <a class="paper" href="{{ item.poster }}">[poster]</a>        
           {% endif %}
+          {% if item.slides != null %}
+          <a class="paper" href="{{ item.slides }}">[slides]</a>        
+          {% endif %}
         </p>
         <!-- <p>{{ item.name }} <a href="{{ item.web }}">[IEEE]</a><a href="{{ item.url }}">[pdf]</a></p> -->
       {% endfor %}
@@ -102,9 +111,12 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          <br><a class="paper" href="{{ item.web }}">[arXiv]</a><a class="paper" href="{{ item.paper }}">[pdf]</a>  
+          <br><a class="paper" href="{{ item.web }}">[arXiv]</a> <a class="paper" href="{{ item.paper }}">[pdf]</a>  
           {% if item.poster != null %}
           <a class="paper" href="{{ item.poster }}">[poster]</a>        
+          {% endif %}
+          {% if item.slides != null %}
+          <a class="paper" href="{{ item.slides }}">[slides]</a>        
           {% endif %}
         </p> 
         <!-- <p>{{ item.name }} <a href="{{ item.web }}">[arXiv]</a><a href="{{ item.url }}">[pdf]</a></p> -->
@@ -114,6 +126,9 @@
       {% for item in site.data.publications.thesis %}
         <p><em>{{ item.title }}</em>, {{ item.description }} 
           <br><a class="paper" href="{{ item.paper }}">[pdf]</a>
+          {% if item.slides != null %}
+          <a class="paper" href="{{ item.slides }}">[slides]</a>        
+          {% endif %}
         </p>
       {% endfor %}
    {% endif %}
