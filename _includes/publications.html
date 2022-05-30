@@ -21,7 +21,10 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          <br><!--<a class="paper" href="{{ item.web }}">[journal/proceedings]</a>--><a class="paper" href="{{ item.paper }}">[pdf]</a>  
+          <br><!--<a class="paper" href="{{ item.web }}">[journal/proceedings]</a><a class="paper" href="{{ item.paper }}">[pdf]</a>  -->
+          {% if item.paper != null %}
+            <a class="paper" href="{{ item.paper }}">[pdf]</a>        
+          {% endif %}
           {% if item.poster != null %}
             <a class="paper" href="{{ item.poster }}">[poster]</a>        
           {% endif %}
@@ -51,7 +54,10 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          <br><!--<a class="paper" href="{{ item.web }}">[journal]</a>--><a class="paper" href="{{ item.paper }}">[pdf]</a>  
+          <br><!--<a class="paper" href="{{ item.web }}">[journal]</a><a class="paper" href="{{ item.paper }}">[pdf]</a>  -->
+          {% if item.paper != null %}
+            <a class="paper" href="{{ item.paper }}">[pdf]</a>        
+          {% endif %}
           {% if item.poster != null %}
             <a class="paper" href="{{ item.poster }}">[poster]</a>        
           {% endif %}
@@ -81,7 +87,10 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          <br><!--<a class="paper" href="{{ item.web }}">[journal]</a>--><a class="paper" href="{{ item.paper }}">[pdf]</a>
+          <br><!--<a class="paper" href="{{ item.web }}">[journal]</a><a class="paper" href="{{ item.paper }}">[pdf]</a>-->
+          {% if item.paper != null %}
+            <a class="paper" href="{{ item.paper }}">[pdf]</a>        
+          {% endif %}
           {% if item.poster != null %}
             <a class="paper" href="{{ item.poster }}">[poster]</a>        
           {% endif %}
@@ -111,7 +120,13 @@
             {% endif %}
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
-          <br><a class="paper" href="{{ item.web }}">[arXiv]</a> <a class="paper" href="{{ item.paper }}">[pdf]</a>  
+          <br><!--<a class="paper" href="{{ item.web }}">[arXiv]</a> <a class="paper" href="{{ item.paper }}">[pdf]</a>  -->
+          {% if item.web != null %}
+            <a class="paper" href="{{ item.web }}">[arXiv]</a>        
+          {% endif %}
+          {% if item.paper != null %}
+            <a class="paper" href="{{ item.paper }}">[pdf]</a>        
+          {% endif %}
           {% if item.poster != null %}
           <a class="paper" href="{{ item.poster }}">[poster]</a>        
           {% endif %}
@@ -125,7 +140,10 @@
     <h4>Ph.D. Thesis</h4>
       {% for item in site.data.publications.thesis %}
         <p><em>{{ item.title }}</em>, {{ item.description }} 
-          <br><a class="paper" href="{{ item.paper }}">[pdf]</a>
+          <br><!--<a class="paper" href="{{ item.paper }}">[pdf]</a>-->
+          {% if item.paper != null %}
+            <a class="paper" href="{{ item.paper }}">[pdf]</a>        
+          {% endif %}
           {% if item.slides != null %}
           <a class="paper" href="{{ item.slides }}">[slides]</a>        
           {% endif %}
