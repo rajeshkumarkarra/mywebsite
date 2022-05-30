@@ -2,7 +2,7 @@
   <div>
     {% if page.title == "Home" %}
       <h3 class="fw-bold border-bottom pb-3 mb-5">Last publications</h3>
-      <p> pruebaasss </p>
+      <!--<p> pruebaasss </p>-->
       {% for item in site.data.publications.featured %}
         <p>
           {% for item_authors in item.authors %}
@@ -104,7 +104,7 @@
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
           <br><a class="paper" href="{{ item.web }}">[arXiv]</a><a class="paper" href="{{ item.paper }}">[pdf]</a>  
           {% if item.poster != null %}
-            <a class="paper" href="{{ item.poster }}">[poster]</a>        
+          <a class="paper" href="{{ item.poster }}">[poster]</a>        
           {% endif %}
         </p> 
         <!-- <p>{{ item.name }} <a href="{{ item.web }}">[arXiv]</a><a href="{{ item.url }}">[pdf]</a></p> -->
@@ -113,7 +113,7 @@
     <h4>Ph.D. Thesis</h4>
       {% for item in site.data.publications.thesis %}
         <p><em>{{ item.title }}</em>, {{ item.description }} 
-          <br><a class="paper" href="{{ item.url }}">[pdf]</a>
+          <br><a class="paper" href="{{ item.paper }}">[pdf]</a>
         </p>
       {% endfor %}
    {% endif %}
