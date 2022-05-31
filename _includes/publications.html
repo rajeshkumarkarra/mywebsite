@@ -22,6 +22,12 @@
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
           <br><!--<a class="paper" href="{{ item.web }}">[journal/proceedings]</a><a class="paper" href="{{ item.paper }}">[pdf]</a>  -->
+          {% if item.doi != null %}
+            <a class="paper" href="{{ item.doi }}">[DOI]</a>        
+          {% endif %}
+          {% if item.arxiv != null %}
+            <a class="paper" href="{{ item.arxiv }}">[arXiv]</a>        
+          {% endif %}
           {% if item.paper != null %}
             <a class="paper" href="{{ item.paper }}">[pdf]</a>        
           {% endif %}
@@ -58,6 +64,12 @@
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
           <br><!--<a class="paper" href="{{ item.web }}">[journal]</a><a class="paper" href="{{ item.paper }}">[pdf]</a>  -->
+          {% if item.doi != null %}
+            <a class="paper" href="{{ item.doi }}">[DOI]</a>        
+          {% endif %}
+          {% if item.arxiv != null %}
+            <a class="paper" href="{{ item.arxiv }}">[arXiv]</a>        
+          {% endif %}
           {% if item.paper != null %}
             <a class="paper" href="{{ item.paper }}">[pdf]</a>        
           {% endif %}
@@ -94,6 +106,12 @@
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
           <br><!--<a class="paper" href="{{ item.web }}">[journal]</a><a class="paper" href="{{ item.paper }}">[pdf]</a>-->
+          {% if item.doi != null %}
+            <a class="paper" href="{{ item.doi }}">[DOI]</a>        
+          {% endif %}
+          {% if item.arxiv != null %}
+            <a class="paper" href="{{ item.arxiv }}">[arXiv]</a>        
+          {% endif %}
           {% if item.paper != null %}
             <a class="paper" href="{{ item.paper }}">[pdf]</a>        
           {% endif %}
@@ -130,14 +148,17 @@
           {% endfor %}
           ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
           <br><!--<a class="paper" href="{{ item.web }}">[arXiv]</a> <a class="paper" href="{{ item.paper }}">[pdf]</a>  -->
-          {% if item.web != null %}
-            <a class="paper" href="{{ item.web }}">[arXiv]</a>        
+          {% if item.doi != null %}
+            <a class="paper" href="{{ item.doi }}">[DOI]</a>        
+          {% endif %}
+          {% if item.arxiv != null %}
+            <a class="paper" href="{{ item.arxiv }}">[arXiv]</a>        
           {% endif %}
           {% if item.paper != null %}
             <a class="paper" href="{{ item.paper }}">[pdf]</a>        
           {% endif %}
           {% if item.poster != null %}
-          <a class="paper" href="{{ item.poster }}">[poster]</a>        
+            <a class="paper" href="{{ item.poster }}">[poster]</a>        
           {% endif %}
           {% if item.slides != null %}
           <a class="paper" href="{{ item.slides }}">[slides]</a>        
