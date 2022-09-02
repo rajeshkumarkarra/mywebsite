@@ -25,7 +25,7 @@ teaching:
 #- {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
-- {icon: 'fab fa-github', link: 'https://github.com/sarapv'}
+- {icon: 'fab fa-github fa-4x', link: 'https://github.com/sarapv'}
 - {icon: 'fab fa-linkedin', link: 'https://www.linkedin.com/in/sara-p%C3%A9rez-vieites-732425122/'}
 - {icon: 'ai ai-google-scholar', link: 'https://scholar.google.es/citations?user=MzPUI0AAAAAJ&hl=es'}
 - {icon: 'fab fa-orcid', link: 'https://orcid.org/0000-0003-1572-4258'}
