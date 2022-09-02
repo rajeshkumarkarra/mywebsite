@@ -31,4 +31,4 @@ social:
 - {icon: 'fab fa-orcid', link: 'https://orcid.org/0000-0003-1572-4258'}
 
 contacts:
-- {name: 'Dr. Sara Pérez Vieites', title: 'Postdoctoral Researcher', department: 'Signal Theory and Communications Department', institution: 'Universidad Carlos III de Madrid', institution_address: 'Av. de la Universidad, 30, 28911, Leganés, Madrid', phone: '(+34) 916246005', email: 'saperezv@pa.uc3m.es', office: '4.3.A03', image: 'assets/img/uc3m.jpeg'}
+- {name: 'Dr. Sara Pérez Vieites', title: 'Postdoctoral Researcher', department: 'CERI Systèmes Numériques (Digital Systems)', institution: 'IMT Nord Europe', institution_address: 'Cité Scientifique, Rue Guglielmo Marconi, 59650, Villeneuve-d’Ascq', phone: '', email: 'sara.perez-vieites@imt-nord-europe.fr', office: '', image: 'assets/img/cropped-IMT_Nord_Europe_.png'}
