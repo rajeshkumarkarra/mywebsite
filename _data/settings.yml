@@ -29,6 +29,7 @@ social:
 - {icon: 'fab fa-linkedin fa-3x', link: 'https://www.linkedin.com/in/sara-p%C3%A9rez-vieites-732425122/'}
 - {icon: 'ai ai-google-scholar fa-3x', link: 'https://scholar.google.es/citations?user=MzPUI0AAAAAJ&hl=es'}
 - {icon: 'fab fa-orcid fa-3x', link: 'https://orcid.org/0000-0003-1572-4258'}
+- {icon: 'ai ai-publons fa-3x', link: 'https://www.webofscience.com/wos/author/record/GOH-0455-2022'}
 
 contacts:
 - {name: 'Dr. Sara Pérez Vieites', title: 'Postdoctoral Researcher', department: 'CERI Systèmes Numériques (Digital Systems)', institution: 'IMT Nord Europe', institution_address: 'Cité Scientifique, Rue Guglielmo Marconi, 59650, Villeneuve-d’Ascq', phone: '', email: 'sara.perez-vieites@imt-nord-europe.fr', office: '', image: 'assets/img/cropped-IMT_Nord_Europe_.png'}
