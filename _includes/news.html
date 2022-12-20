@@ -18,8 +18,8 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Last news</h3>
     {% for item_news in site.data.news %} 
     <ul>
-      {% if item.last == "1" %}
-      <li> {{ item.message }} </li>
+      {% if item_news.last == "1" %}
+      <li> {{ item_news.message }} </li>
       {% endif %}      
     </ul>
     {% endfor %}
