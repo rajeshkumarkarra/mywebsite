@@ -12,7 +12,9 @@
       {% if item.name == "CV" %}
         <a class="text-dark me-3 py-2 text-decoration-none" href="publications/cvSara.pdf">{{ item.name }}</a>
       {% else %}
-        <a class="text-dark me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+        {% if item.name !== "News" %}
+          <a class="text-dark me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </nav>
