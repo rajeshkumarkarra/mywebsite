@@ -24,7 +24,11 @@
         {% endif %}      
       </ul>
       {% endfor %}
-        <p><a class="text-dark me-3 py-2 text-decoration-none" href="{{ site.github.url }}/news">All news</a></p>
+        <p style="color:#FF0000";>
+          <u>
+            <a class="text-dark me-3 py-2 text-decoration-none" href="{{ site.github.url }}/news">All news</a>
+          </u>
+        </p>
     {% else %}
     <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
       {% for item_news in site.data.news %} 
