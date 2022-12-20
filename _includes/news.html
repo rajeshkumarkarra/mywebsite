@@ -16,11 +16,13 @@
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Last news</h3>
+    {% for item_news in site.data.news %} 
     <ul>
-      {% for item_news in site.data.news %}
+      {% if item.last == "1" %}
       <li> {{ item.message }} </li>
-      {% endfor %}
+      {% endif %}      
     </ul>
+    {% endfor %}
   </div>
 </div>
 
