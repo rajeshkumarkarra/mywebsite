@@ -17,19 +17,20 @@
   <div>
     {% if page.title == "Home" %}
     <h3 class="fw-bold border-bottom pb-3 mb-5">Last news</h3>
-    {% for item_news in site.data.news %} 
-    <ul>
-      {% if item_news.last == "1" %}
-      <li> {{ item_news.message }} </li>
-      {% endif %}      
-    </ul>
-    {% endfor %}
+      {% for item_news in site.data.news %} 
+      <ul>
+        {% if item_news.last == "1" %}
+        <li> {{ item_news.message }} </li>
+        {% endif %}      
+      </ul>
+      {% endfor %}
     {% else %}
-    {% for item_news in site.data.news %} 
-    <ul>
-      <li> {{ item_news.message }} </li>      
-    </ul>
-    {% endfor %}
+    <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
+      {% for item_news in site.data.news %} 
+      <ul>
+        <li> {{ item_news.message }} </li>      
+      </ul>
+      {% endfor %}
     {% endif %}
   </div>
 </div>
