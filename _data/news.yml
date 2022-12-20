@@ -1,0 +1,4 @@
+- {message: 'new1', last: '1'}
+- {message: 'new2', last: '1'}
+- {message: 'new3', last: '1'}
+- {message: 'not new', last: '0'}
