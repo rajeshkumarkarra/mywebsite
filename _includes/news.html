@@ -4,7 +4,7 @@
       <!--<p> pruebaasss </p>-->
       {% for item in site.data.news %}
         <p>
-          {% item.last == "1" %}
+          {% if item.last == "1" %}
             - {{ item.message }}
           {% endif %}      
         </p>
