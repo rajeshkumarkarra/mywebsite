@@ -1,7 +1,7 @@
+<!-- 
 <div class="row g-5 mb-5">
   <div>
       <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
-      <!--<p> pruebaasss </p>-->
       {% for item in site.data.news %}
         <p>
           {% if item.last == "1" %}
@@ -9,6 +9,65 @@
           {% endif %}      
         </p>
       {% endfor %}
+  </div>
+</div>
+-->
+<div class="row g-5 mb-5">
+  <div>
+    {% if page.title == "Home" %}
+      <h3 class="fw-bold border-bottom pb-3 mb-5">Last news</h3>
+      <!--<p> pruebaasss </p>-->
+      {% for item in site.data.publications.featured %}
+        <p>
+          {% for item_authors in item.authors %}
+            {% if item_authors.last == "1" %}
+              {% if item_authors.me == "1" %}
+                & <strong>{{ item_authors.name }}</strong>.
+              {% else %}
+                {% if item_authors.url == null %}
+                  & {{ item_authors.name }}.
+                {% else %}
+                  & <a class="other" href="{{ item_authors.url }}">{{ item_authors.name }}</a>.
+                {% endif %}  
+              {% endif %}
+            {% else %}
+              {% if item_authors.me == "1" %}
+                <strong>{{ item_authors.name }}</strong>,
+              {% else %}
+                {% if item_authors.url == null %}
+                  {{ item_authors.name }}, 
+                {% else %}
+                  <a class="other" href="{{ item_authors.url }}">{{ item_authors.name }}</a>, 
+                {% endif %}  
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          ({{ item.year }}). <em>{{ item.title }}</em> {{ item.journal }} 
+          <br><!--<a class="paper" href="{{ item.web }}">[journal/proceedings]</a><a class="paper" href="{{ item.paper }}">[pdf]</a>  -->
+          {% if item.doi != null %}
+            <a class="paper" href="{{ item.doi }}">[DOI]</a>        
+          {% endif %}
+          {% if item.arxiv != null %}
+            <a class="paper" href="{{ item.arxiv }}">[arXiv]</a>        
+          {% endif %}
+          {% if item.paper != null %}
+            <a class="paper" href="{{ item.paper }}">[pdf]</a>        
+          {% endif %}
+          {% if item.poster != null %}
+            <a class="paper" href="{{ item.poster }}">[poster]</a>        
+          {% endif %}
+          {% if item.slides != null %}
+          <a class="paper" href="{{ item.slides }}">[slides]</a>        
+          {% endif %}
+          {% if item.videos != null %}
+          <a class="paper" href="{{ item.videos }}">[video]</a>        
+          {% endif %}
+          {% if item.code != null %}
+          <a class="paper" href="{{ item.code }}">[code]</a>        
+          {% endif %}
+        </p>
+      {% endfor %}
+    {% endif %}
   </div>
 </div>
 
