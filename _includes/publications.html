@@ -8,12 +8,12 @@
           {% for item_authors in item.authors %}
             {% if item_authors.last == "1" %}
               {% if item_authors.me == "1" %}
-                & <strong>{{ item_authors.name }}</strong>.
+                & <strong>{{ item_authors.name }}</strong>
               {% else %}
                 {% if item_authors.url == null %}
-                  & {{ item_authors.name }}.
+                  & {{ item_authors.name }}
                 {% else %}
-                  & <a class="other" href="{{ item_authors.url }}">{{ item_authors.name }}</a>.
+                  & <a class="other" href="{{ item_authors.url }}">{{ item_authors.name }}</a>
                 {% endif %}  
               {% endif %}
             {% else %}
