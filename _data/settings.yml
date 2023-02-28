@@ -5,21 +5,9 @@ menu:
 - {name: 'Contact', url: '/contact'}
 - {name: 'News', url: '/news'}
 
-teaching:
-- {place: 'carlos', year: '2017-2018', name: 'Linear networks analysis and synthesis', degree: 'Bachelor in Telecommunication Technologies Engineering (1st year)', description: ''}
-- {place: 'carlos', year: '2017-2018', name: 'Linear systems', degree: 'Bachelor in Mobile and Space Communications Engineering (2nd year)', description: ''}
-- {place: 'carlos', year: '2017-2018', name: 'Linear systems', degree: 'Bachelor in Telecommunication Technologies Engineering (2nd year)', description: ''}
-- {place: 'carlos', year: '2017-2018', name: 'Linear systems', degree: 'Bachelor in Telematics Engineering (2nd year)', description: ''}
-- {place: 'carlos', year: '2018-2019', name: 'Linear systems', degree: 'Bachelor in Mobile and Space Communications Engineering (2nd year)', description: ''}
-- {place: 'carlos', year: '2018-2019', name: 'Linear systems', degree: 'Bachelor in Telecommunication Technologies Engineering (2nd year)', description: ''}
-- {place: 'carlos', year: '2018-2019', name: 'Linear systems', degree: 'Bachelor in Telematics Engineering (2nd year)', description: ''}
-
 social:
 - {icon: 'fab fa-github fa-2x', link: 'https://github.com/sarapv'}
 - {icon: 'fab fa-linkedin fa-2x', link: 'https://www.linkedin.com/in/sara-p%C3%A9rez-vieites-732425122/'}
 - {icon: 'ai ai-google-scholar fa-2x', link: 'https://scholar.google.es/citations?user=MzPUI0AAAAAJ&hl=es'}
 - {icon: 'fab fa-orcid fa-2x', link: 'https://orcid.org/0000-0003-1572-4258'}
 - {icon: 'ai ai-publons fa-2x', link: 'https://www.webofscience.com/wos/author/record/GOH-0455-2022'}
-
-contacts:
-- {name: 'Dr. Sara Pérez Vieites', title: 'Postdoctoral Researcher', department: 'CERI Systèmes Numériques (Digital Systems)', institution: 'IMT Nord Europe', institution_address: 'Cité Scientifique, Rue Guglielmo Marconi, 59650, Villeneuve-d’Ascq', phone: '', email: 'sara.perez-vieites@imt-nord-europe.fr', office: '', image: 'assets/img/cropped-IMT_Nord_Europe_.png'}
