@@ -4,15 +4,15 @@
     <!-- {% for contact in site.data.contacts_data %} -->
     <div class="row g-5 mb-5">
       <div class="col-md-6">
-        <h4>{{ site.data.contact_data.name }}</h4> 
-        <p>{{ site.data.contact_data.title }} | {{ site.data.contact_data.department }}</p>
-        <p>{{ site.data.contact_data.institution }} | {{ site.data.contact_data.institution_address }}</p>
-        <!-- <p>Phone: {{ contact.phone }}</p> -->
-        <p>Email: {{ site.data.contact_data.email }}</p>
-        <!-- <p>Office: {{ contact.office }}</p> -->
+        <h4>{{ site.data.contact.name }}</h4> 
+        <p>{{ site.data.contact.title }} | {{ site.data.contact.department }}</p>
+        <p>{{ site.data.contact.institution }} | {{ site.data.contact.institution_address }}</p>
+        <!-- <p>Phone: {{ site.data.contact.phone }}</p> -->
+        <p>Email: {{ site.data.contact.email }}</p>
+        <!-- <p>Office: {{ site.data.contact.office }}</p> -->
       </div>
       <div class="col-md-4">
-        <img src="{{ site.github.url }}/{{ site.data.contact_data.image }}" alt="Contact" width="100%">
+        <img src="{{ site.github.url }}/{{ site.data.contact.image }}" alt="Contact" width="100%">
       </div>
     </div>
     <!-- {% endfor %} -->
