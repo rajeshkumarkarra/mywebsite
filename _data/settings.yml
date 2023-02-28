@@ -1,15 +1,9 @@
 menu:
-#- {name: 'people', url: '/people'}
 - {name: 'Publications', url: '/publications'}
 - {name: 'Teaching', url: '/teaching'}
 - {name: 'CV', url: '/cv'}
 - {name: 'Contact', url: '/contact'}
 - {name: 'News', url: '/news'}
-
-#people:
-#- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-#- {name: 'Lab Technician', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/lab-technician.jpg', url: 'lab-technician'}
-#- {name: 'Graduate Student', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/graduate-student.jpg', url: 'graduate-student'}
 
 teaching:
 - {place: 'carlos', year: '2017-2018', name: 'Linear networks analysis and synthesis', degree: 'Bachelor in Telecommunication Technologies Engineering (1st year)', description: ''}
@@ -19,11 +13,6 @@ teaching:
 - {place: 'carlos', year: '2018-2019', name: 'Linear systems', degree: 'Bachelor in Mobile and Space Communications Engineering (2nd year)', description: ''}
 - {place: 'carlos', year: '2018-2019', name: 'Linear systems', degree: 'Bachelor in Telecommunication Technologies Engineering (2nd year)', description: ''}
 - {place: 'carlos', year: '2018-2019', name: 'Linear systems', degree: 'Bachelor in Telematics Engineering (2nd year)', description: ''}
-
-
-#- {name: 'Vector Calculus', url: 'vector-calculus'}
-#- {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
-#- {name: 'Stellar Structures', url: 'stellar-structures'}
 
 social:
 - {icon: 'fab fa-github fa-2x', link: 'https://github.com/sarapv'}
