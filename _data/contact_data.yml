@@ -1,1 +1,9 @@
-- {name: 'Dr. Sara Pérez Vieites', title: 'Postdoctoral Researcher', department: 'CERI Systèmes Numériques (Digital Systems)', institution: 'IMT Nord Europe', institution_address: 'Cité Scientifique, Rue Guglielmo Marconi, 59650, Villeneuve-d’Ascq', phone: '', email: 'sara.perez-vieites@imt-nord-europe.fr', office: '', image: 'assets/img/cropped-IMT_Nord_Europe_.png'}
+- name: 'Dr. Sara Pérez Vieites' 
+- title: 'Postdoctoral Researcher'
+- department: 'CERI Systèmes Numériques (Digital Systems)'
+- institution: 'IMT Nord Europe'
+- institution_address: 'Cité Scientifique, Rue Guglielmo Marconi, 59650, Villeneuve-d’Ascq (France)'
+- phone: ''
+- email: 'sara.perez-vieites@imt-nord-europe.fr'
+- office: ''
+- image: 'assets/img/cropped-IMT_Nord_Europe_.png'
