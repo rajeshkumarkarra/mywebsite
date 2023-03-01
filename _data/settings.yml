@@ -1,9 +1,9 @@
 menu:
+- {name: 'News', url: '/news'}
 - {name: 'Publications', url: '/publications'}
 - {name: 'Teaching', url: '/teaching'}
 - {name: 'CV', url: '/cv'}
 - {name: 'Contact', url: '/contact'}
-- {name: 'News', url: '/news'}
 
 social:
 - {icon: 'fab fa-github fa-3x', link: 'https://github.com/sarapv'}
