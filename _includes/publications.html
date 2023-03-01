@@ -3,7 +3,7 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
     <h4>Journal publications</h4>
       {% for item in site.data.publications.journal %}
-        <p>
+        <p> <b>{{ item.idx }}</b>. 
           {% for item_authors in item.authors %}
             {% if item_authors.last == "1" %}
               {% if item_authors.me == "1" %}
@@ -56,7 +56,7 @@
     <br>
     <h4>Conference papers</h4>
       {% for item in site.data.publications.conference %}
-        <p>
+        <p> <b>{{ item.idx }}</b>. 
           {% for item_authors in item.authors %}
             {% if item_authors.last == "1" %}
               {% if item_authors.me == "1" %}
