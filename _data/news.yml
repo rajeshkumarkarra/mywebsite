@@ -1,11 +1,12 @@
+- {message: 'Apr. 23 | &nbsp; Glad to serve as <u><b>reviewer</b></u> for the <a class="other" href="https://eusipco2023.org/">EUSIPCO 2023</a>.', last: '1'}
 - {message: 'Feb. 23 | &nbsp; <b style="color:rgba(0,100,0,0.8);"><u>Invited talk</b></u> at the <u>Statistics Seminar</u> (School of Mathematics, University of Edinburgh). Title: <i>Nested filtering methods for Bayesian inference in state space models</i>. <a class="paper" href="publications/slides/202302_Slides_Statistics_Seminar LAST.pdf">[slides]</a>', last: '1'}
 - {message: 'Feb. 23 | &nbsp; Happy to provide <b><u>support</u></b> to the <u><b>MSc Earth Observation Challenge</b></u> (organised by <a class="other" href="https://saxavord.com/">Saxavord</a> and the University of Edinburgh).', last: '1'}
 - {message: 'Feb. 23 | &nbsp; <b style="color:rgba(200,0,200,0.8);"><u>Accepted paper</b></u> in <a class="other" href="https://2023.ieeeicassp.org/">ICASSP 2023</a>! Title: <i>Adaptive Gaussian nested filter for parameter estimation and state tracking in dynamical systems</i>.', last: '1'}
 - {message: 'Jan. 23 | &nbsp; Starting a <u><b>long-stay research visit</b></u> in the <a class="other" href="https://www.maths.ed.ac.uk/school-of-mathematics">School of Mathematics, University of Edinburgh</a>.', last: '1'}
 - {message: 'Sep. 22 | &nbsp; <b style="color:rgba(0,100,0,0.8);"><u>Poster presentation</b></u> at the <a class="other" href="https://www.siam.org/conferences/cm/conference/mds22">SIAM MDS22</a>. <a class="paper" href="publications/posters/posterMDS22.pdf">[poster]</a>', last: '1'}
 - {message: 'Sep. 22 | &nbsp; Starting a <u><b>postdoctoral position</b></u> at <a class="other" href="https://imt-nord-europe.fr/en/">IMT Nord Europe</a>!', last: '1'}
-- {message: 'July 22 | &nbsp; Glad to serve as <u><b>reviewer</b></u> in <u>IEEE Signal Processing Letters</u>.', last: '1'}
-- {message: 'June 22 | &nbsp; Glad to serve as <u><b>reviewer</b></u> in the journal <u>Foundations of Data Science</u>.', last: '1'}
+- {message: 'July 22 | &nbsp; Glad to serve as <u><b>reviewer</b></u> in <u>IEEE Signal Processing Letters</u>.', last: '0'}
+- {message: 'June 22 | &nbsp; Glad to serve as <u><b>reviewer</b></u> in the journal <u>Foundations of Data Science</u>.', last: '0'}
 - {message: 'May 22 | &nbsp; <b style="color:rgba(0,100,0,0.8);"><u>Poster presentation</b></u> at the <a class="other" href="https://smc2022.webs.tsc.uc3m.es/">SMC 2022</a> and the <a class="other" href="https://sic2022.webs.tsc.uc3m.es">SIC 2022</a>. <a class="paper" href="publications/posters/posterSMC22_SaraP.pdf">[poster]</a>', last: '0'}
 - {message: 'May 22 | &nbsp; Happy to be part of the <u><b>local arrangements committee</b></u> of the <a class="other" href="https://smc2022.webs.tsc.uc3m.es/">SMC 2022</a>.', last: '0'}
 - {message: 'Apr. 22 | &nbsp; Glad to serve as <u><b>reviewer</b></u> for the <a class="other" href="https://2022.eusipco.org/">EUSIPCO 2022</a>.', last: '0'}
