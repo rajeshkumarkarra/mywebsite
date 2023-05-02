@@ -6,6 +6,7 @@ $linkmorado: #8e0eb3; //morado oscuro
 $linkazul: #0b5394; //azul oscuro
 $linkverde: #6aa84f;
 $linkverdeoscuro: #3d603d; 
+$linkrosa: #f60e85;
 
 body {
   background: $backgroundColor;
@@ -21,7 +22,7 @@ body a.title {color: $linkColor; background-color: transparent; text-decoration:
 body a.paper {color: $linkverde; background-color: transparent; text-decoration: none;}
 body a.pdf {color: $linkmorado; background-color: transparent; text-decoration: none;}
 body a.presentation {color: $linkverde; background-color: transparent; text-decoration: none;}
-body a.code {color: $linkverdeoscuro; background-color: transparent; text-decoration: none;}
+body a.code {color: $linkrosa; background-color: transparent; text-decoration: none;}
 
 
 
