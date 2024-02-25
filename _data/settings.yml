@@ -8,6 +8,6 @@ menu:
 social:
 - {icon: 'fab fa-github fa-3x', link: 'https://github.com/sarapv'}
 - {icon: 'fab fa-linkedin fa-3x', link: 'https://www.linkedin.com/in/sara-p%C3%A9rez-vieites-732425122/'}
-- {icon: 'ai ai-google-scholar fa-3x', link: 'https://scholar.google.es/citations?user=MzPUI0AAAAAJ&hl=es'}
+- {icon: 'ai ai-google-scholar fa-3x', link: 'https://scholar.google.es/citations?user=MzPUI0AAAAAJ&hl=en'}
 - {icon: 'fab fa-orcid fa-3x', link: 'https://orcid.org/0000-0003-1572-4258'}
 - {icon: 'ai ai-clarivate fa-3x', link: 'https://www.webofscience.com/wos/author/record/GOH-0455-2022'}
