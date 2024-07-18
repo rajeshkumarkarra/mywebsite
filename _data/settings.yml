@@ -1,0 +1,27 @@
+menu:
+- {name: 'News', url: '/news'}
+- {name: 'Publications', url: '/publications'}
+- {name: 'Teaching', url: '/teaching'}
+- {name: 'Courses', url: '/courses'}
+#- {name: 'My Research Group', url: '/myResearchGroup'}
+#- {name: 'My Reading Group', url: '/https://theo-physics.github.io/'}
+- {name: 'CV', url: '/cv'}
+- {name: 'Contact', url: '/contact'}
+
+
+courses:
+- {name: 'Theoretical Physics', url: 'theoreticalPhysics'}
+- {name: 'Computer Science', url: 'computer-science'}
+- {name: 'Aritificial Intelligence', url: 'ai'}
+- {name: 'Essentials', url: 'essentials'}
+- {name: 'Gists', url: 'gists'}
+- {name: 'Spotlights', url: 'spotlights'}
+- {name: 'B.Sc(M.P.CS)VI SEM', url: 'bsc-mpcs'}
+
+
+social:
+- {icon: 'fab fa-github fa-3x', link: 'https://github.com/rajeshkumarkarra'}
+- {icon: 'fab fa-linkedin fa-3x', link: 'https://www.linkedin.com/in/rajesh-karra/'}
+- {icon: 'ai ai-google-scholar fa-3x', link: 'https://scholar.google.es/citations?user=MzPUI0AAAAAJ&hl=en'}
+- {icon: 'fab fa-orcid fa-3x', link: 'https://orcid.org/0000-0003-4099-7143'}
+- {icon: 'ai ai-clarivate fa-3x', link: 'https://www.webofscience.com/wos/author/record/GOH-0455-2022'}
